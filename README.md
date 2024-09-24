@@ -36,11 +36,6 @@ Initialize a Node.js project:
 ```
 npm init -y
 ```
-Install required packages:
-
-```
-npm install express mysql body-parser
-```
 Running the Project:-
 
 Start the MySQL server and ensure your database is up and running.
