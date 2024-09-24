@@ -22,7 +22,7 @@ Follow similar steps for the other folders and files. Here's the full breakdown:
 
 <img width="310" alt="Screenshot 2024-09-24 at 8 34 45 PM" src="https://github.com/user-attachments/assets/c5f9296b-7c19-4db3-b18d-62402d994511">
 
-Step-by-Step Instructions:
+Step-by-Step Instructions:(VS CODE)
 
 1. Set up the project environment
 Install Node.js and npm if you don't have them already.
