@@ -4,7 +4,7 @@ You need HTML,CSS,Node.js, SQL
 for SQL you can use xAMPP
 just start the mysql database server, thats it..!
 
-**STEPS TO CREATE THE FILES:-**
+# STEPS TO CREATE THE FILES:-
 
 Create a folder named placementregistration.
 
