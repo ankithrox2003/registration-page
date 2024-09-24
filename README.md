@@ -4,7 +4,7 @@ You need HTML,CSS,Node.js, SQL
 for SQL you can use xAMPP
 just start the mysql database server, thats it..!
 
-STEPS TO CREATE THE FILES:-
+**STEPS TO CREATE THE FILES:-**
 
 Create a folder named placementregistration.
 
@@ -36,6 +36,26 @@ Initialize a Node.js project:
 ```
 npm init -y
 ```
+Run this aswell in terminal:
+```
+npm install mysql2
+```
+Also need to create a database in mysql:
+```
+CREATE DATABASE placementregistration;
+USE placementregistration;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    degree VARCHAR(100),
+    year VARCHAR(100),
+    university VARCHAR(100),
+    skills VARCHAR(255),
+    projects VARCHAR(255)
+);
+```
 Running the Project:-
 
 Start the MySQL server and ensure your database is up and running.
@@ -47,5 +67,11 @@ node server.js
 After you run you will get this in terminal open it:
 
 Open your browser and go to http://localhost:3000 to see the registration page.
+
+After this extract the students data in Database using:
+```
+select * from students;
+```
+And ya thats it 👍
 
 
