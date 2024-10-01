@@ -8,7 +8,7 @@ const querystring = require('querystring');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'ankithrox123$', // Use your MySQL password here
+    password: '*************', // Use your MySQL password here
     database: 'placementregistration' // Replace with your database name
 });
 
